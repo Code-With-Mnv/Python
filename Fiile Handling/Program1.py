@@ -8,6 +8,6 @@ with open("File1.txt", "r") as file:
     print(f"Words of legnth {length} are: ")
     for word in words:
         if (len(word) == length):
-            print(word)
+            print(word, end=", ")
 
     
