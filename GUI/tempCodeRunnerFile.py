@@ -24,7 +24,7 @@ root.resizable(False, False)
 title = tk.Label(root, text="Enter Password to Validate", font=("Helvetica", 14, "bold"))
 title.pack(pady=15)
 
-password_entry = tk.Entry(root, font=("Helvetica", 12), width=30)
+password_entry = tk.Entry(root, show="*", font=("Helvetica", 12), width=30)
 password_entry.pack(pady=10)
 
 validate_btn = tk.Button(root, text="Validate", command=validate_password, font=("Helvetica", 12))
